@@ -133,49 +133,7 @@ a {
 }
 
 
-@keyframes scroll {
 
-    0%,
-    100% {
-        top: 0;
-    }
-
-    10% {
-        top: 0;
-    }
-
-    15% {
-        top: -50px;
-    }
-
-    30% {
-        top: -50px;
-    }
-
-    35% {
-        top: -100px;
-    }
-
-    50% {
-        top: -100px;
-    }
-
-    60% {
-        top: -150px;
-    }
-
-    70% {
-        top: -150px;
-    }
-
-    75% {
-        top: -200px;
-    }
-
-    90% {
-        top: -200px;
-    }
-}
 
 .logo {
     border-radius: 50%;
@@ -295,38 +253,6 @@ abbr:hover::after {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @keyframes rotation {
     0% {
         transform: rotate(0deg);
@@ -344,5 +270,49 @@ abbr:hover::after {
 
     100% {
         transform: rotate(0deg);
+    }
+}
+
+@keyframes scroll {
+
+    0%,
+    100% {
+        top: 0;
+    }
+
+    10% {
+        top: 0;
+    }
+
+    15% {
+        top: -50px;
+    }
+
+    30% {
+        top: -50px;
+    }
+
+    35% {
+        top: -100px;
+    }
+
+    50% {
+        top: -100px;
+    }
+
+    60% {
+        top: -150px;
+    }
+
+    70% {
+        top: -150px;
+    }
+
+    75% {
+        top: -200px;
+    }
+
+    90% {
+        top: -200px;
     }
 }
