@@ -239,6 +239,10 @@ abbr:hover::after {
         width: 250px;
     }
 
+    .skills {
+        padding-top: 25vh;
+    }
+
     .skill-container abbr {
         transform: scale(0.6);
     }
