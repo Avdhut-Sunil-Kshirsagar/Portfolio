@@ -7,9 +7,9 @@
 
 html {
     scroll-behavior: smooth;
-  }
-  
-a{
+}
+
+a {
     z-index: 999 !important;
 }
 
@@ -188,14 +188,15 @@ a{
 
 /* ================================= about us ============================================================== */
 .about-me {
-    height: 100vh;
+    height: auto;
     background-color: rgb(69 6 157 / 90%);
 }
 
 /* ================================= Skills ============================================================== */
 
 .skills {
-    height: 90vh;
+    padding-top: 15vh;
+    height: auto;
     background-color: rgb(69 6 157 / 90%);
 
 }
@@ -229,11 +230,16 @@ a{
     border-radius: 50%;
 }
 
+.middle-log0 {
+    width: 120px;
+    height: 120px;
+}
+
 abbr {
     position: relative;
-    }
-    
-    abbr:hover::after {
+}
+
+abbr:hover::after {
     position: absolute;
     bottom: 100%;
     left: 100%;
@@ -245,7 +251,7 @@ abbr {
     content: attr(name);
     color: blueviolet;
     font-weight: 900;
-    }
+}
 
 
 /* ================================= Projects ============================================================== */
@@ -264,11 +270,26 @@ abbr {
     border-radius: 25px;
     height: 18rem;
 }
-.card-img-top-last{
+
+.card-img-top-last {
     height: 95vh;
 }
 
 
+@media screen and (max-width: 480px) {
+    .own-image {
+        width: 250px;
+    }
+
+    .skill-container abbr {
+        transform: scale(0.6);
+    }
+
+    .middle-log0 {
+        width: 80px;
+        height: 80px;
+    }
+}
 
 
 
