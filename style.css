@@ -241,7 +241,7 @@ abbr:hover::after {
 
 @media screen and (max-width: 480px) {
     .own-image {
-        width: 330px;
+        width: 310px;
     }
 
     .skills {
@@ -252,7 +252,7 @@ abbr:hover::after {
         transform: scale(0.6);
     }
 
-    .middle-log0 {
+    .middle-logo {
         width: 80px;
         height: 80px;
     }
