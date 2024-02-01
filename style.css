@@ -236,11 +236,11 @@ abbr:hover::after {
 
 @media screen and (max-width: 480px) {
     .own-image {
-        width: 250px;
+        width: 330px;
     }
 
     .skills {
-        padding-top: 25vh;
+        padding-top: 15vh;
     }
 
     .skill-container abbr {
@@ -250,6 +250,9 @@ abbr:hover::after {
     .middle-log0 {
         width: 80px;
         height: 80px;
+    }
+    .card-img-top-last {
+        height: 35vh;
     }
 }
 
